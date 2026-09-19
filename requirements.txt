@@ -1,0 +1,18 @@
+# Core symbolic-verification engine
+z3-solver>=4.12
+
+# COBOL DATA DIVISION / PROCEDURE DIVISION parsing
+cobol-py>=0.1
+
+# Java source parsing (java_bridge.py)
+javalang>=0.13
+
+# tree-sitter grammars for the C#, Go, Rust, and C bridges
+tree_sitter>=0.21
+tree-sitter-c-sharp>=0.21
+tree-sitter-go>=0.21
+tree-sitter-rust>=0.21
+tree-sitter-c>=0.21
+
+# Test suite
+pytest>=7.0
